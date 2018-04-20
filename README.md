@@ -15,7 +15,7 @@ Time spent: 5 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
 
-    <img src="XSS_Submit_Comment" width="800">
+    <img src="XSS_Submit_Comment.gif" width="800">
 
 2. Generic User Enumeration of WP-Login.php page
   - Summary: Allows the user to enumerate thru a list of valid usernames—— this is till a flaw in the code and the page should not specify whether usernames are valid or not. Someone with malicious intent could validate whether a user account exists and then attempt to brute force access.
@@ -23,7 +23,7 @@ Time spent: 5 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.3
 
-    <img src="user_enumeration" width="800">
+    <img src="user_enumeration.gif" width="800">
 
 3. 
   - Summary: User must have permission to create and/or edit posts. Using the text tab, a user can submit a malicious script inside raw html code. A classic example is a hover over script as scene in the gif.
@@ -31,7 +31,7 @@ Time spent: 5 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3
 
-    <img src="XSS_Caption_Code" width="800">
+    <img src="XSS_Caption_Code.gif" width="800">
 
 
 
